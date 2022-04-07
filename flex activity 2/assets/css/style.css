@@ -70,11 +70,27 @@ footer {
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
-  border-radius: 1%;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 2.5em;
+  transform: rotate(11deg);
+  width: 312px;
+  height: 312px;
+  filter: drop-shadow(0px 10px 3px black);
 }
 
 .card header {
   padding: 20px;
+  margin-top: 5%;
+  margin-right: 4%;
+  margin-left: 4%;
+  border-top-right-radius: 2.5em;
+  border-top-left-radius: 2.5em;
+}
+
+.card div {
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .card p {
@@ -84,7 +100,6 @@ footer {
 .card img {
   width: 100%;
 }
-
 @media screen and (max-width: 768px) {
   main,
   nav {
